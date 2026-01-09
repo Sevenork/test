@@ -3,35 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Простая HTML Страница</title>
+    <title>Элементы оформления</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Название вашего сайта</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#services">Услуги</a></li>
-                <li><a href="#contact">Контакты</a></li>
-            </ul>
-        </nav>
+        <h1>Элементы оформления HTML</h1>
     </header>
     
     <main>
-        <section id="about">
-            <h2>О нас</h2>
-            <p>Этот раздел содержит информацию о вашей компании или проекте.</p>
+        <section>
+            <h2>Заголовок 1 уровня (h1)</h2>
+            <h1>Это заголовок 1 уровня</h1>
+            <p>Используется для главных заголовков на странице.</p>
         </section>
 
-        <section id="services">
-            <h2>Услуги</h2>
-            <p>Здесь вы можете перечислить ваши услуги или продукты.</p>
+        <section>
+            <h2>Заголовок 2 уровня (h2)</h2>
+            <h2>Это заголовок 2 уровня</h2>
+            <p>Используется для подзаголовков.</p>
         </section>
 
-        <section id="contact">
-            <h2>Контакты</h2>
-            <p>Напишите нам по электронной почте: email@example.com</p>
+        <section>
+            <h2>Параграф (p)</h2>
+            <p>Это обычный текстовый параграф, который может содержать информацию.</p>
+        </section>
+
+        <section>
+            <h2>Список (ul, ol)</h2>
+            <h3>Маркированный список (ul)</h3>
+            <ul>
+                <li>Первый элемент</li>
+                <li>Второй элемент</li>
+                <li>Третий элемент</li>
+            </ul>
+
+            <h3>Нумерованный список (ol)</h3>
+            <ol>
+                <li>Первый шаг</li>
+                <li>Второй шаг</li>
+                <li>Третий шаг</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Ссылка (a)</h2>
+            <p><a href="https://www.example.com">Это ссылка на внешний ресурс</a>.</p>
+        </section>
+
+        <section>
+            <h2>Изображение (img)</h2>
+            <img src="https://via.placeholder.com/150" alt="Пример изображения">
+            <p>Это изображение с заполнителем размером 150x150 пикселей.</p>
+        </section>
+
+        <section>
+            <h2>Кнопка (button)</h2>
+            <button type="button">Это кнопка</button>
+            <p>Кнопки используются для выполнения действий, например, отправки формы.</p>
+        </section>
+
+        <section>
+            <h2>Форма (form)</h2>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Отправить</button>
+            </form>
         </section>
     </main>
 
