@@ -3,28 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя простая страница</title>
+    <title>Простая HTML Страница</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Добро пожаловать на мою страницу</h1>
+        <h1>Название вашего сайта</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
     </header>
     
     <main>
-        <section>
-            <h2>Что такое GitHub Pages?</h2>
-            <p>GitHub Pages — это способ размещения веб-страниц прямо из вашего репозитория на GitHub.</p>
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Этот раздел содержит информацию о вашей компании или проекте.</p>
         </section>
 
-        <section>
-            <h2>Как использовать GitHub Pages?</h2>
-            <p>Вы можете создать новую ветку с названием <code>gh-pages</code> и разместить свои файлы там для публикации.</p>
+        <section id="services">
+            <h2>Услуги</h2>
+            <p>Здесь вы можете перечислить ваши услуги или продукты.</p>
         </section>
 
-        <footer>
-            <p>© 2026 Моя первая GitHub страница</p>
-        </footer>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Напишите нам по электронной почте: email@example.com</p>
+        </section>
     </main>
+
+    <footer>
+        <p>© 2026 Ваш сайт. Все права защищены.</p>
+    </footer>
 </body>
 </html>
